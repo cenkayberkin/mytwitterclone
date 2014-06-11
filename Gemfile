@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.7'
-
+ruby "2.0.0"
 
 group :development ,:test do
 	gem 'sqlite3'
@@ -33,7 +33,7 @@ end
 
 group :production do
   gem 'pg'
-  gem 'rails_12factor'
+  # gem 'rails_12factor'
 end
 
 # To use ActiveModel has_secure_password
