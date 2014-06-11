@@ -6,4 +6,7 @@
   <data-source source="LOCAL" name="Rails myTwitterClone: test" uuid="bcaa498c-4edd-481b-b48f-363b87a1c226">
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
+  <data-source source="LOCAL" name="Rails myTwitterClone: production" uuid="651a658b-5d8d-478a-9bf3-df08d1cfa379">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
 </component>
