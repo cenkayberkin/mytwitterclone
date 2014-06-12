@@ -1,7 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.7'
-ruby "2.0.0"
+gem 'rails', '3.2.16'
+gem 'bootstrap-sass', '2.1'
+gem 'bcrypt-ruby', '3.0.1'
+gem 'faker', '1.0.1'
+gem 'will_paginate', '3.0.3'
+gem 'bootstrap-will_paginate', '0.0.6'
+gem 'jquery-rails', '2.0.2'
 
 group :development ,:test do
 	gem 'sqlite3'
@@ -15,13 +20,12 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
-
 group :test, :development do
 	gem 'rspec-rails', '2.10.0'
 	gem 'guard-rspec'
 	gem 'guard-spork'
-	gem 'spork'
+	gem 'childprocess'
+  gem 'spork'
 end
 
 group :test do
@@ -50,3 +54,4 @@ end
 
 # To use debugger
 # gem 'debugger'
+ruby "2.0.0"
