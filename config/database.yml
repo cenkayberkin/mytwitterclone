@@ -20,6 +20,5 @@ test:
 
 production:
   adapter: postgresql
-  database: mytwitterclone
   pool: 5
   timeout: 5000
