@@ -54,4 +54,4 @@ end
 
 # To use debugger
 # gem 'debugger'
-ruby "2.0.0"
+# ruby "2.0.0"
